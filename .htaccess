@@ -1,0 +1,4 @@
+RewriteEngine On
+
+#if the URI starts with htaccess, return a 404
+RewriteRule ^toto/news.php - [R=404,L,NC]
